@@ -56,7 +56,7 @@ public abstract class BaseFragment extends Fragment{
         x.view().inject(this,rootView);
         initViews();
         initData();
-        updateData();
+        updateUI();
         return rootView;
     }
 
@@ -79,7 +79,7 @@ public abstract class BaseFragment extends Fragment{
     /**
      * 数据的填充
      */
-    protected abstract void updateData();
+    protected abstract void updateUI();
 
     /**
      * 如果需要activity更新标题的话，重写此方法，返回需要显示的标题

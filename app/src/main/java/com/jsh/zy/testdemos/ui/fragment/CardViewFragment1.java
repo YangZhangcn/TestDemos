@@ -30,7 +30,7 @@ public class CardViewFragment1 extends BaseFragment{
     }
 
     @Override
-    protected void updateData() {
+    protected void updateUI() {
 
     }
 }

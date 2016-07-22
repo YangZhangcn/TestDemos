@@ -29,7 +29,13 @@ public class BaseActivity extends AppCompatActivity {
         x.view().inject(this);//xutil视图注入
         actionBar = getSupportActionBar();
         appStorageManager  = AppStorageManager.getInstance((MyApp) getApplicationContext());
+        initViews();
+        initDatas();
     }
+
+    public void initViews(){}
+
+    public void initDatas(){}
 
     public CharSequence getActTitle(){
         return actionBar.getTitle();

@@ -8,4 +8,10 @@
         android:layout_height="wrap_content"
         android:text="cardview_demo"
         android:id="@+id/cardview_demo" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Net_demo"
+        android:id="@+id/net_demo" />
 </LinearLayout>

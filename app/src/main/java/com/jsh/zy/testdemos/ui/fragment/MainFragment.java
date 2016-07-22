@@ -10,13 +10,19 @@ import com.jsh.zy.testdemos.R;
 import com.jsh.zy.testdemos.ui.activity.MainActivity;
 import com.jsh.zy.testdemos.ui.base.BaseFragment;
 
+import org.xutils.view.annotation.ViewInject;
+
 /**
  * Created by zhangyang on 2016/7/21.
  * 主界面的fragment
  */
 public class MainFragment extends BaseFragment implements View.OnClickListener{
 
+    @ViewInject(R.id.cardview_demo)
     private Button btnCardView;
+
+    @ViewInject(R.id.net_demo)
+    private Button btnNetDemo;
 
     @Override
     protected View getContentView() {
@@ -30,8 +36,8 @@ public class MainFragment extends BaseFragment implements View.OnClickListener{
 
     @Override
     protected void initViews() {
-        btnCardView = (Button) rootView.findViewById(R.id.cardview_demo);
         btnCardView.setOnClickListener(this);
+        btnNetDemo.setOnClickListener(this);
     }
 
     @Override
@@ -40,7 +46,7 @@ public class MainFragment extends BaseFragment implements View.OnClickListener{
     }
 
     @Override
-    protected void updateData() {
+    protected void updateUI() {
 
     }
 
@@ -48,6 +54,8 @@ public class MainFragment extends BaseFragment implements View.OnClickListener{
     public void onClick(View view) {
         if(view==btnCardView){
             openFragment(new CardViewFragment());
+        }else if (view == btnNetDemo){
+            openFragment(new NetFragment());
         }
     }
 

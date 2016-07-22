@@ -15,7 +15,7 @@ import org.xutils.view.annotation.ViewInject;
 public class CardViewFragment extends BaseFragment implements View.OnClickListener{
 
     @ViewInject(R.id.add_new_frag)
-    private Button addmore;
+    private Button addMore;
 
     @Override
     protected View getContentView() {
@@ -29,7 +29,7 @@ public class CardViewFragment extends BaseFragment implements View.OnClickListen
 
     @Override
     protected void initViews() {
-        addmore.setOnClickListener(this);
+        addMore.setOnClickListener(this);
     }
 
     @Override
@@ -38,13 +38,13 @@ public class CardViewFragment extends BaseFragment implements View.OnClickListen
     }
 
     @Override
-    protected void updateData() {
+    protected void updateUI() {
 
     }
 
     @Override
     public void onClick(View view) {
-        if (view == addmore){
+        if (view == addMore){
             FragmentTransaction transaction = getActivity().getFragmentManager().beginTransaction();
             CardViewFragment1 fragment = new CardViewFragment1();
             transaction.addToBackStack(fragment.getClass().toString());
