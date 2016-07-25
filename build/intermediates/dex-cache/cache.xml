@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\studioProjects\Demos\TestDemos\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\libs\internal_impl-23.4.0.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="D:\studioProjects\Demos\TestDemos\app\build\intermediates\pre-dexed\debug\internal_impl-23.4.0_8371da54b9a5b0877ca4749977d1e5d9f92e3d49.jar" />
+    </item>
+    <item
+        jar="D:\studioProjects\Demos\TestDemos\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="D:\studioProjects\Demos\TestDemos\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.4.0_2dd11973efeb184a486b2040e6c131c095d26237.jar" />
+    </item>
+    <item
+        jar="D:\studioProjects\Demos\TestDemos\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="d9ecde39b460470e655de6e47c05573d2d5a8bfb">
+        <dex dex="D:\studioProjects\Demos\TestDemos\app\build\intermediates\pre-dexed\debug\com.android.support-cardview-v7-23.4.0_993edef3dd5011254ee658b8a93a9f88d1978cef.jar" />
+    </item>
+    <item
+        jar="D:\studioProjects\Demos\TestDemos\app\build\intermediates\exploded-aar\org.xutils\xutils\3.3.36\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="a525a7f2e266f577629f68820a462a807c66eec7">
+        <dex dex="D:\studioProjects\Demos\TestDemos\app\build\intermediates\pre-dexed\debug\org.xutils-xutils-3.3.36_7da9beb57e1a257ac6fd83ea1785afade2a72423.jar" />
+    </item>
+    <item
+        jar="C:\Program Files\Android\Android Studio\gradle\m2repository\com\google\code\gson\gson\2.2.4\gson-2.2.4.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="a60a5e993c98c864010053cb901b7eab25306568">
+        <dex dex="D:\studioProjects\Demos\TestDemos\app\build\intermediates\pre-dexed\debug\gson-2.2.4_313aff129984a0a45e086871ec03bfcc02e7284e.jar" />
+    </item>
+    <item
+        jar="D:\studioProjects\Demos\TestDemos\app\build\intermediates\exploded-aar\com.android.support\design\23.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="8a5238e4bdcd6568b82db669d41817de670586b8">
+        <dex dex="D:\studioProjects\Demos\TestDemos\app\build\intermediates\pre-dexed\debug\com.android.support-design-23.0.0_7b19dc83c68c581173c5bb7a48156750bd327ebc.jar" />
+    </item>
+    <item
+        jar="D:\studioProjects\Demos\TestDemos\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="D:\studioProjects\Demos\TestDemos\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.4.0_63dae4ddc58c0eda06c9254e68d86f01e9eacd24.jar" />
+    </item>
+    <item
+        jar="D:\studioProjects\Demos\TestDemos\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="D:\studioProjects\Demos\TestDemos\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-23.4.0_a9530f943366ed8a89c55fada1ea663d0105433f.jar" />
+    </item>
+    <item
+        jar="D:\studioProjects\Demos\TestDemos\app\build\intermediates\exploded-aar\com.bigkoo\alertview\1.0.2\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="0f90a2a51eda3f06792b9bae9de735c0a9102d0e">
+        <dex dex="D:\studioProjects\Demos\TestDemos\app\build\intermediates\pre-dexed\debug\com.bigkoo-alertview-1.0.2_374dad29be2293130d864b2af4685ab737723576.jar" />
+    </item>
+    <item
+        jar="D:\sdk\sdk\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="D:\studioProjects\Demos\TestDemos\app\build\intermediates\pre-dexed\debug\support-annotations-23.4.0_24ccc662f6c0d92bf8a943125d4918d77232f0a8.jar" />
+    </item>
+    <item
+        jar="D:\studioProjects\Demos\TestDemos\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="D:\studioProjects\Demos\TestDemos\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-23.4.0_8583724eb82dc92cbf24aff6eab01a77939da819.jar" />
+    </item>
+
+</items>
