@@ -7,7 +7,7 @@ package com.jsh.zy.testdemos.net.base;
  */
 public interface ProtocolCallBack {
 
-    void onSuccessed(ProtocolBean bean);
+    void onSuccessed(String bean);
 
     void onFailed(Throwable ex);
 

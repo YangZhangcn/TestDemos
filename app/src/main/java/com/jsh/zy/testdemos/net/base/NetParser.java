@@ -1,8 +1,7 @@
 package com.jsh.zy.testdemos.net.base;
 
-import com.google.gson.Gson;
+import android.util.Log;
 
-import org.json.JSONObject;
 import org.xutils.http.app.ResponseParser;
 import org.xutils.http.request.UriRequest;
 
@@ -19,6 +18,7 @@ public class NetParser implements ResponseParser{
 
     @Override
     public Object parse(Type resultType, Class<?> resultClass, String result) throws Throwable {
-        return new Gson().fromJson(result,resultClass);
+        Log.d("TAG",result);
+        return result;
     }
 }

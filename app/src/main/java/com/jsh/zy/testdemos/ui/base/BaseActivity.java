@@ -45,5 +45,4 @@ public class BaseActivity extends AppCompatActivity {
         actionBar.setTitle(title);
     }
 
-
 }

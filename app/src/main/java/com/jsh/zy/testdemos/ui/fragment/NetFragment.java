@@ -1,5 +1,7 @@
 package com.jsh.zy.testdemos.ui.fragment;
 
+import android.app.AlertDialog;
+import android.content.DialogInterface;
 import android.text.TextUtils;
 import android.view.View;
 import android.widget.Button;
@@ -75,12 +77,27 @@ public class NetFragment extends BaseFragment implements View.OnClickListener,Pr
     }
 
     @Override
-    public void onSuccessed(ProtocolBean bean) {
-        if(bean instanceof TestBean){
-            TestBean resultBean =(TestBean) bean;
-            if (!TextUtils.isEmpty(resultBean.msg))
-                result.setText(resultBean.msg);
-        }
+    public void onSuccessed(String resultStr) {
+//        if(bean instanceof TestBean){
+//            TestBean resultBean =(TestBean) bean;
+//            if (!TextUtils.isEmpty(resultBean.msg))
+//                result.setText(resultBean.msg);
+//        }
+        if (!TextUtils.isEmpty(resultStr))
+               result.setText(resultStr);
+
+        new AlertDialog.Builder(getActivity()).setTitle("提示")
+                .setPositiveButton("OK", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialogInterface, int i) {
+                        dialogInterface.dismiss();
+                    }
+                }).setNegativeButton("QUIT", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialogInterface, int i) {
+                        dialogInterface.dismiss();
+                    }
+                }).show();
     }
 
     @Override

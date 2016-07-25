@@ -35,7 +35,9 @@ public class MainActivity extends BaseActivity {
 
     @Override
     public void initDatas() {
-       checkUserPermission();
+        if(Build.VERSION.SDK_INT >=23){
+            checkUserPermission();
+        }
     }
 
     private void checkUserPermission() {

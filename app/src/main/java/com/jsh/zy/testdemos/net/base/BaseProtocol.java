@@ -13,7 +13,7 @@ import java.util.Map;
  *
  * 所有网络请求的基类，基于xutil3封装
  */
-public class BaseProtocol implements Addresses,Callback.CommonCallback<ProtocolBean>{
+public class BaseProtocol implements Addresses,Callback.CommonCallback<String>{
 
     /**
      * 地址，根据不同接口生成
@@ -54,6 +54,13 @@ public class BaseProtocol implements Addresses,Callback.CommonCallback<ProtocolB
             token = "";
     }
 
+
+    /**
+     *
+     * @param url
+     * @param callBack
+     * @param isNeedToken
+     */
     public BaseProtocol(String url,ProtocolCallBack callBack,boolean isNeedToken) {
         this(url,null,callBack,isNeedToken);
     }
@@ -61,14 +68,14 @@ public class BaseProtocol implements Addresses,Callback.CommonCallback<ProtocolB
     /**
      * get请求
      */
-    public void get(){
+    public Cancelable get(){
         RequestParams xParams = new RequestParams(url);
         if (!TextUtils.isEmpty(token))
             xParams.addQueryStringParameter("token",token);
         for (String key : params.keySet()) {
             xParams.addQueryStringParameter(key,params.get(key));
         }
-        x.http().get(xParams, this);
+        return x.http().get(xParams, this);
     }
 
     public void post(){
@@ -86,8 +93,8 @@ public class BaseProtocol implements Addresses,Callback.CommonCallback<ProtocolB
     }
 
     @Override
-    public void onSuccess(ProtocolBean result) {
-        this.responesBean = result;
+    public void onSuccess(String result) {
+        //this.responesBean = result;
         callBack.onSuccessed(result);
     }
 
