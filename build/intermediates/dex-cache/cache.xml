@@ -2,81 +2,123 @@
 <items version="2" >
 
     <item
-        jar="D:\studioProjects\Demos\TestDemos\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\libs\internal_impl-23.4.0.jar"
-        jumboMode="false"
-        revision="23.0.3"
-        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
-        <dex dex="D:\studioProjects\Demos\TestDemos\app\build\intermediates\pre-dexed\debug\internal_impl-23.4.0_8371da54b9a5b0877ca4749977d1e5d9f92e3d49.jar" />
-    </item>
-    <item
         jar="D:\studioProjects\Demos\TestDemos\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\classes.jar"
-        jumboMode="false"
+        jumboMode="true"
         revision="23.0.3"
         sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
-        <dex dex="D:\studioProjects\Demos\TestDemos\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.4.0_2dd11973efeb184a486b2040e6c131c095d26237.jar" />
+        <dex dex="D:\studioProjects\Demos\TestDemos\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.4.0_2dd11973efeb184a486b2040e6c131c095d26237\classes.dex" />
     </item>
     <item
-        jar="D:\studioProjects\Demos\TestDemos\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.4.0\jars\classes.jar"
-        jumboMode="false"
+        jar="D:\studioProjects\Demos\TestDemos\app\libs\AMap_Location_V2.4.0_20160308.jar"
+        jumboMode="true"
         revision="23.0.3"
-        sha1="d9ecde39b460470e655de6e47c05573d2d5a8bfb">
-        <dex dex="D:\studioProjects\Demos\TestDemos\app\build\intermediates\pre-dexed\debug\com.android.support-cardview-v7-23.4.0_993edef3dd5011254ee658b8a93a9f88d1978cef.jar" />
+        sha1="dd8aedb3d0d87b92777ab997ec883427d88f379a">
+        <dex dex="D:\studioProjects\Demos\TestDemos\app\build\intermediates\transforms\dex\debug\folders\1000\2\AMap_Location_V2.4.0_20160308_ed87b9b93d75884c0cfff265f16a05d4339913d4\classes.dex" />
     </item>
     <item
-        jar="D:\studioProjects\Demos\TestDemos\app\build\intermediates\exploded-aar\org.xutils\xutils\3.3.36\jars\classes.jar"
-        jumboMode="false"
+        jar="D:\studioProjects\Demos\TestDemos\app\libs\AMap3DMap_3.3.2_AMapNavi_1.9.0_AMapLocation_2.6.0_20160713.jar"
+        jumboMode="true"
         revision="23.0.3"
-        sha1="a525a7f2e266f577629f68820a462a807c66eec7">
-        <dex dex="D:\studioProjects\Demos\TestDemos\app\build\intermediates\pre-dexed\debug\org.xutils-xutils-3.3.36_7da9beb57e1a257ac6fd83ea1785afade2a72423.jar" />
-    </item>
-    <item
-        jar="C:\Program Files\Android\Android Studio\gradle\m2repository\com\google\code\gson\gson\2.2.4\gson-2.2.4.jar"
-        jumboMode="false"
-        revision="23.0.3"
-        sha1="a60a5e993c98c864010053cb901b7eab25306568">
-        <dex dex="D:\studioProjects\Demos\TestDemos\app\build\intermediates\pre-dexed\debug\gson-2.2.4_313aff129984a0a45e086871ec03bfcc02e7284e.jar" />
-    </item>
-    <item
-        jar="D:\studioProjects\Demos\TestDemos\app\build\intermediates\exploded-aar\com.android.support\design\23.0.0\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.3"
-        sha1="8a5238e4bdcd6568b82db669d41817de670586b8">
-        <dex dex="D:\studioProjects\Demos\TestDemos\app\build\intermediates\pre-dexed\debug\com.android.support-design-23.0.0_7b19dc83c68c581173c5bb7a48156750bd327ebc.jar" />
-    </item>
-    <item
-        jar="D:\studioProjects\Demos\TestDemos\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.3"
-        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
-        <dex dex="D:\studioProjects\Demos\TestDemos\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.4.0_63dae4ddc58c0eda06c9254e68d86f01e9eacd24.jar" />
-    </item>
-    <item
-        jar="D:\studioProjects\Demos\TestDemos\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.3"
-        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
-        <dex dex="D:\studioProjects\Demos\TestDemos\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-23.4.0_a9530f943366ed8a89c55fada1ea663d0105433f.jar" />
-    </item>
-    <item
-        jar="D:\studioProjects\Demos\TestDemos\app\build\intermediates\exploded-aar\com.bigkoo\alertview\1.0.2\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.3"
-        sha1="0f90a2a51eda3f06792b9bae9de735c0a9102d0e">
-        <dex dex="D:\studioProjects\Demos\TestDemos\app\build\intermediates\pre-dexed\debug\com.bigkoo-alertview-1.0.2_374dad29be2293130d864b2af4685ab737723576.jar" />
-    </item>
-    <item
-        jar="D:\sdk\sdk\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
-        jumboMode="false"
-        revision="23.0.3"
-        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
-        <dex dex="D:\studioProjects\Demos\TestDemos\app\build\intermediates\pre-dexed\debug\support-annotations-23.4.0_24ccc662f6c0d92bf8a943125d4918d77232f0a8.jar" />
+        sha1="70af57b789a866e3951b4bd03a61c0e64eb5d6f2">
+        <dex dex="D:\studioProjects\Demos\TestDemos\app\build\intermediates\transforms\dex\debug\folders\1000\2\AMap3DMap_3.3.2_AMapNavi_1.9.0_AMapLocation_2.6.0_20160713_8aa47c0d4cd3d74c51153c7e42b1d83d17962ffc\classes.dex" />
     </item>
     <item
         jar="D:\studioProjects\Demos\TestDemos\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\jars\classes.jar"
-        jumboMode="false"
+        jumboMode="true"
         revision="23.0.3"
         sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
-        <dex dex="D:\studioProjects\Demos\TestDemos\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-23.4.0_8583724eb82dc92cbf24aff6eab01a77939da819.jar" />
+        <dex dex="D:\studioProjects\Demos\TestDemos\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-23.4.0_8583724eb82dc92cbf24aff6eab01a77939da819\classes.dex" />
+    </item>
+    <item
+        jar="D:\studioProjects\Demos\TestDemos\app\libs\AMap_Search_V3.2.1_20160308.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="f2ca076e4192ab39f1fae2e265b15e6005a5615d">
+        <dex dex="D:\studioProjects\Demos\TestDemos\app\build\intermediates\transforms\dex\debug\folders\1000\2\AMap_Search_V3.2.1_20160308_03813e138026df95902d42c96a18893eee65fd55\classes.dex" />
+    </item>
+    <item
+        jar="D:\studioProjects\Demos\TestDemos\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="d9ecde39b460470e655de6e47c05573d2d5a8bfb">
+        <dex dex="D:\studioProjects\Demos\TestDemos\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-cardview-v7-23.4.0_993edef3dd5011254ee658b8a93a9f88d1978cef\classes.dex" />
+    </item>
+    <item
+        jar="D:\studioProjects\Demos\TestDemos\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\libs\internal_impl-23.4.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="D:\studioProjects\Demos\TestDemos\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.4.0_8371da54b9a5b0877ca4749977d1e5d9f92e3d49\classes.dex" />
+    </item>
+    <item
+        jar="C:\Program Files\Android\Android Studio\gradle\m2repository\com\google\code\gson\gson\2.2.4\gson-2.2.4.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="a60a5e993c98c864010053cb901b7eab25306568">
+        <dex dex="D:\studioProjects\Demos\TestDemos\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.2.4_313aff129984a0a45e086871ec03bfcc02e7284e\classes.dex" />
+    </item>
+    <item
+        jar="D:\studioProjects\Demos\TestDemos\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="c1a69d2bdb585c57235c418b65e6dceeeb9dcada">
+        <dex dex="D:\studioProjects\Demos\TestDemos\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_ac8a3c3cd4ea17787e5bbfb9541a6517cf181329\classes.dex" />
+    </item>
+    <item
+        jar="D:\studioProjects\Demos\TestDemos\app\build\intermediates\exploded-aar\com.android.support\design\23.0.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="8a5238e4bdcd6568b82db669d41817de670586b8">
+        <dex dex="D:\studioProjects\Demos\TestDemos\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-23.0.0_7b19dc83c68c581173c5bb7a48156750bd327ebc\classes.dex" />
+    </item>
+    <item
+        jar="D:\studioProjects\Demos\TestDemos\app\build\intermediates\exploded-aar\org.xutils\xutils\3.3.36\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="a525a7f2e266f577629f68820a462a807c66eec7">
+        <dex dex="D:\studioProjects\Demos\TestDemos\app\build\intermediates\transforms\dex\debug\folders\1000\10\org.xutils-xutils-3.3.36_7da9beb57e1a257ac6fd83ea1785afade2a72423\classes.dex" />
+    </item>
+    <item
+        jar="D:\studioProjects\Demos\TestDemos\app\libs\AMap_2DMap_V2.8.1_20160202.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="0109d970ab16fff07a9a2f22149aecdc1195a4c2">
+        <dex dex="D:\studioProjects\Demos\TestDemos\app\build\intermediates\transforms\dex\debug\folders\1000\2\AMap_2DMap_V2.8.1_20160202_b1560f6fc58583b263e59bb3f7094dd92e0b2c50\classes.dex" />
+    </item>
+    <item
+        jar="D:\studioProjects\Demos\TestDemos\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="D:\studioProjects\Demos\TestDemos\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.4.0_63dae4ddc58c0eda06c9254e68d86f01e9eacd24\classes.dex" />
+    </item>
+    <item
+        jar="D:\studioProjects\Demos\TestDemos\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="0133245509bb73db413cf6e04f078ee1039dda09">
+        <dex dex="D:\studioProjects\Demos\TestDemos\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_3faa3d6c965cf60c2a5298b982155662cae7d93c\classes.dex" />
+    </item>
+    <item
+        jar="D:\studioProjects\Demos\TestDemos\app\build\intermediates\exploded-aar\com.bigkoo\alertview\1.0.2\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="0f90a2a51eda3f06792b9bae9de735c0a9102d0e">
+        <dex dex="D:\studioProjects\Demos\TestDemos\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.bigkoo-alertview-1.0.2_374dad29be2293130d864b2af4685ab737723576\classes.dex" />
+    </item>
+    <item
+        jar="D:\sdk\sdk\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="D:\studioProjects\Demos\TestDemos\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.4.0_24ccc662f6c0d92bf8a943125d4918d77232f0a8\classes.dex" />
+    </item>
+    <item
+        jar="D:\studioProjects\Demos\TestDemos\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="D:\studioProjects\Demos\TestDemos\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-23.4.0_a9530f943366ed8a89c55fada1ea663d0105433f\classes.dex" />
     </item>
 
 </items>

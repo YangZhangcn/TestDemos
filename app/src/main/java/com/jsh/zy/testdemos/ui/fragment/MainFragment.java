@@ -24,6 +24,9 @@ public class MainFragment extends BaseFragment implements View.OnClickListener{
     @ViewInject(R.id.net_demo)
     private Button btnNetDemo;
 
+    @ViewInject(R.id.map_demo)
+    private Button btnMapDemo;
+
     @Override
     protected View getContentView() {
         return View.inflate(getActivity(),R.layout.fragment_main,null);
@@ -38,6 +41,7 @@ public class MainFragment extends BaseFragment implements View.OnClickListener{
     protected void initViews() {
         btnCardView.setOnClickListener(this);
         btnNetDemo.setOnClickListener(this);
+        btnMapDemo.setOnClickListener(this);
     }
 
     @Override
@@ -56,6 +60,8 @@ public class MainFragment extends BaseFragment implements View.OnClickListener{
             openFragment(new CardViewFragment());
         }else if (view == btnNetDemo){
             openFragment(new NetFragment());
+        }else if(view == btnMapDemo){
+            openFragment(new MapFragment());
         }
     }
 

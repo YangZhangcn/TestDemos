@@ -14,4 +14,10 @@
         android:layout_height="wrap_content"
         android:text="Net_demo"
         android:id="@+id/net_demo" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Map_Demo"
+        android:id="@+id/map_demo" />
 </LinearLayout>
