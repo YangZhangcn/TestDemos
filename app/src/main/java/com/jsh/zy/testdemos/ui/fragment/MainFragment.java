@@ -3,11 +3,15 @@ package com.jsh.zy.testdemos.ui.fragment;
 import android.app.Fragment;
 import android.app.FragmentTransaction;
 import android.content.Context;
+import android.content.Intent;
+import android.view.LayoutInflater;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.Button;
 
 import com.jsh.zy.testdemos.R;
 import com.jsh.zy.testdemos.ui.activity.MainActivity;
+import com.jsh.zy.testdemos.ui.activity.MapActivity;
 import com.jsh.zy.testdemos.ui.base.BaseFragment;
 
 import org.xutils.view.annotation.ViewInject;
@@ -27,9 +31,12 @@ public class MainFragment extends BaseFragment implements View.OnClickListener{
     @ViewInject(R.id.map_demo)
     private Button btnMapDemo;
 
+    @ViewInject(R.id.refresh_demo)
+    private Button btnRefreshDemo;
+
     @Override
-    protected View getContentView() {
-        return View.inflate(getActivity(),R.layout.fragment_main,null);
+    protected View getContentView(LayoutInflater inflater, ViewGroup container) {
+        return inflater.inflate(R.layout.fragment_main,container,false);
     }
 
     @Override
@@ -42,6 +49,7 @@ public class MainFragment extends BaseFragment implements View.OnClickListener{
         btnCardView.setOnClickListener(this);
         btnNetDemo.setOnClickListener(this);
         btnMapDemo.setOnClickListener(this);
+        btnRefreshDemo.setOnClickListener(this);
     }
 
     @Override
@@ -61,7 +69,10 @@ public class MainFragment extends BaseFragment implements View.OnClickListener{
         }else if (view == btnNetDemo){
             openFragment(new NetFragment());
         }else if(view == btnMapDemo){
-            openFragment(new MapFragment());
+//            openFragment(new MapFragment());
+            startActivity(new Intent(getActivity(), MapActivity.class));
+        }else if (view == btnRefreshDemo){
+            openFragment(new RefreshFragment());
         }
     }
 

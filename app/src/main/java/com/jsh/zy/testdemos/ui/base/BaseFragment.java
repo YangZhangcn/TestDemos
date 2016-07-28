@@ -51,7 +51,7 @@ public abstract class BaseFragment extends Fragment{
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         if(rootView==null)
-            rootView = getContentView();
+            rootView = getContentView(inflater,container);
 
         x.view().inject(this,rootView);
         initViews();
@@ -64,7 +64,7 @@ public abstract class BaseFragment extends Fragment{
      * 设置根视图
      * @return
      */
-    protected abstract View getContentView();
+    protected abstract View getContentView(LayoutInflater inflater, ViewGroup container);
 
     /**
      * 初始化视图组件,点击事件等等

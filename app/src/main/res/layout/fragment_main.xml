@@ -20,4 +20,10 @@
         android:layout_height="wrap_content"
         android:text="Map_Demo"
         android:id="@+id/map_demo" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="refresh_demo"
+        android:id="@+id/refresh_demo" />
 </LinearLayout>

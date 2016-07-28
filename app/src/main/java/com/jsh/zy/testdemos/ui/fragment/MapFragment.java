@@ -1,10 +1,11 @@
 package com.jsh.zy.testdemos.ui.fragment;
 
 import android.os.Bundle;
+import android.view.LayoutInflater;
 import android.view.View;
+import android.view.ViewGroup;
 
-import com.amap.api.maps.MapView;
-import com.amap.api.maps.model.MarkerOptions;
+import com.amap.api.maps2d.MapView;
 import com.jsh.zy.testdemos.R;
 import com.jsh.zy.testdemos.ui.base.BaseFragment;
 
@@ -15,8 +16,8 @@ import org.xutils.view.annotation.ViewInject;
  */
 public class MapFragment extends BaseFragment{
     @Override
-    protected View getContentView() {
-        return View.inflate(getActivity(), R.layout.fragment_map,null);
+    protected View getContentView(LayoutInflater inflater, ViewGroup container) {
+        return inflater.inflate(R.layout.fragment_map,container,false);
     }
 
     @ViewInject(R.id.map)

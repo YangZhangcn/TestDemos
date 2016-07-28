@@ -1,7 +1,9 @@
 package com.jsh.zy.testdemos.ui.fragment;
 
 import android.app.FragmentTransaction;
+import android.view.LayoutInflater;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.Button;
 
 import com.jsh.zy.testdemos.R;
@@ -18,8 +20,8 @@ public class CardViewFragment extends BaseFragment implements View.OnClickListen
     private Button addMore;
 
     @Override
-    protected View getContentView() {
-        return View.inflate(getActivity(), R.layout.fragment_cardview, null);
+    protected View getContentView(LayoutInflater inflater, ViewGroup container) {
+        return inflater.inflate( R.layout.fragment_cardview, container,false);
     }
 
     @Override

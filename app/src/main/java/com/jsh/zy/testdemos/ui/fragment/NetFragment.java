@@ -3,7 +3,9 @@ package com.jsh.zy.testdemos.ui.fragment;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.text.TextUtils;
+import android.view.LayoutInflater;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.TextView;
 
@@ -36,8 +38,8 @@ public class NetFragment extends BaseFragment implements View.OnClickListener,Pr
     private BaseProtocol protocol;
 
     @Override
-    protected View getContentView() {
-        return View.inflate(getActivity(), R.layout.fragment_net,null);
+    protected View getContentView(LayoutInflater inflater, ViewGroup container) {
+        return inflater.inflate(R.layout.fragment_net,container,false);
     }
 
     @Override
